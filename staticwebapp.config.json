@@ -3,11 +3,7 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/redpEmailForm.html"
-    },
-    {
-      "route": "/confirm",
-      "rewrite": "/redpEmailForm.html"
+      "serve": "index.html"
     }
   ],
   "navigationFallback": {
